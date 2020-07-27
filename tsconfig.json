@@ -6,5 +6,30 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/root/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/root/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/sub-app1/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/sub-app1/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/sub-app2/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/sub-app2/tsconfig.spec.json"
+    },
+    {
+      "path": "./libraries/auth/tsconfig.lib.json"
+    },
+    {
+      "path": "./libraries/auth/tsconfig.spec.json"
+    }
+]
 }
