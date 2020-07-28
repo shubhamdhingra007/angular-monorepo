@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-auth-auth',
   template: `
     <h1 style="margin-top:200px">
-      Login comp works!
+      Login component works!
     </h1>
     <input type="text" placeholder="Enter email" />
     <input type="password" placeholder="Enter password" />

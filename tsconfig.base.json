@@ -21,7 +21,7 @@
     ],
     "paths": {
       "auth": [
-        "libraries/auth/src/public-api",
+        "libraries/auth/src/public-api"
       ]
     }
   },

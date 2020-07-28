@@ -5,7 +5,7 @@ import { SubApp1SharedModule } from 'projects/sub-app1/src/app/app.module';
 import { SubApp2SharedModule } from 'projects/sub-app2/src/app/app.module';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'sa1/sar1' },
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: 'login', component: AuthComponent },
   { path: 'sa1', loadChildren: () => import('../../../sub-app1/src/app/app.module').then(m => m.AppModule) },
   { path: 'sa2', loadChildren: () => import('../../../sub-app2/src/app/app.module').then(m => m.AppModule) },
